@@ -4,8 +4,8 @@
   --ink: #111418;
   --paper: #f2f0e9;
   --paper-deep: #e6e3d9;
-  --acid: #c8ff2e;
-  --blue: #4064ff;
+  --acid: #9abfff;
+  --blue: #3659c9;
   --muted: #6e716e;
   --line: rgba(17, 20, 24, 0.15);
   --mono: "DM Mono", monospace;
@@ -181,7 +181,7 @@ button {
 .hero-grid::after {
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, transparent 49.8%, rgba(200, 255, 46, 0.2) 50%, transparent 50.2%);
+  background: linear-gradient(90deg, transparent 49.8%, rgba(154, 191, 255, 0.22) 50%, transparent 50.2%);
   content: "";
 }
 
@@ -197,7 +197,7 @@ button {
   right: -10%;
   width: 760px;
   height: 760px;
-  background: radial-gradient(circle, rgba(64, 100, 255, 0.32), transparent 66%);
+  background: radial-gradient(circle, rgba(54, 89, 201, 0.34), transparent 66%);
 }
 
 .orb-two {
@@ -205,7 +205,7 @@ button {
   left: 30%;
   width: 700px;
   height: 700px;
-  background: radial-gradient(circle, rgba(200, 255, 46, 0.09), transparent 66%);
+  background: radial-gradient(circle, rgba(154, 191, 255, 0.1), transparent 66%);
 }
 
 .hero-content {
@@ -239,7 +239,7 @@ button {
   height: 7px;
   background: var(--acid);
   border-radius: 50%;
-  box-shadow: 0 0 0 5px rgba(200, 255, 46, 0.12);
+  box-shadow: 0 0 0 5px rgba(154, 191, 255, 0.14);
 }
 
 .hero h1,
@@ -367,7 +367,7 @@ button {
 
 .ring-three {
   inset: 146px;
-  border-color: rgba(200, 255, 46, 0.45);
+  border-color: rgba(154, 191, 255, 0.48);
 }
 
 .mark-core {
@@ -714,7 +714,7 @@ button {
   width: 6px;
   height: 6px;
   background: var(--blue);
-  box-shadow: 0 0 0 4px rgba(64, 100, 255, 0.12);
+  box-shadow: 0 0 0 4px rgba(54, 89, 201, 0.14);
 }
 
 .timeline-role > p {
@@ -758,12 +758,12 @@ button {
   position: absolute;
   width: min(32vw, 420px);
   height: min(32vw, 420px);
-  border: 1px solid rgba(200, 255, 46, 0.3);
+  border: 1px solid rgba(154, 191, 255, 0.34);
   border-radius: 50%;
   content: "";
   box-shadow:
-    0 0 0 60px rgba(200, 255, 46, 0.025),
-    0 0 0 120px rgba(200, 255, 46, 0.015);
+    0 0 0 60px rgba(154, 191, 255, 0.03),
+    0 0 0 120px rgba(154, 191, 255, 0.018);
 }
 
 .impact-visual svg {
@@ -938,7 +938,7 @@ button {
 
 .card-a {
   background:
-    linear-gradient(145deg, transparent 50%, rgba(200, 255, 46, 0.18)),
+    linear-gradient(145deg, transparent 50%, rgba(154, 191, 255, 0.2)),
     var(--ink);
 }
 
@@ -977,7 +977,7 @@ button {
   left: 50%;
   width: 750px;
   height: 500px;
-  background: radial-gradient(ellipse, rgba(64, 100, 255, 0.24), transparent 65%);
+  background: radial-gradient(ellipse, rgba(54, 89, 201, 0.26), transparent 65%);
   transform: translate(-50%, -50%);
 }
 
