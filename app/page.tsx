@@ -18,6 +18,7 @@ import {
   X,
 } from "lucide-react";
 import { useEffect, useState } from "react";
+import CareerChat from "./components/CareerChat";
 
 const journey = [
   {
@@ -397,6 +398,8 @@ export default function Home() {
           </a>
         </div>
       </section>
+
+      <CareerChat />
 
       <footer>
         <div className="brand footer-brand">
